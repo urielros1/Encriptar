@@ -1,0 +1,158 @@
+body{
+    background: #E5E5E5;
+}
+
+.area-texto__logo{
+    display: inline-block;
+    width: 10vw;
+    height: 100vh;
+}
+
+.imagen0{
+    margin: 40px 0px 0px 30px;
+}
+
+.input-text{
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 62vw;
+    height: 100vh;
+}
+
+.input-text__area{
+    width: 50vw;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 32px;
+    font-family: 'Inter';
+    color: #0A3871;
+    height: 388px;
+    background: #E5E5E5;
+    border-color: #E5E5E5;
+    
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.botones{
+    
+    margin-top: 8vh;
+}
+
+.encriptar{
+    position: absolute;
+    margin-left: 12vw;
+    padding: 1vh;
+    width: 17vw;
+    height: 10vh;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: 1s;
+
+}
+.desencriptar{
+    position: absolute;
+    margin-left: 34vw;
+    padding: 1vh;
+    width: 17vw;
+    height: 10vh;
+    border-radius: 24px;
+    border-color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871; 
+    transition: 1s;
+}
+.copiar{
+    margin-left: 60vw;
+    display: inline-block;
+    position: absolute;
+    width: 29vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.imagen1{
+    width: 25vw;
+    margin-top: 20vh;
+    margin-left: 3.5vw;
+    margin-bottom: 4vh;
+   
+}
+
+.imagen2{
+    width: 25vw;
+    margin-left: 3.5vw;
+    margin-bottom: 100vh;
+ 
+}
+
+.caja-resultado{
+   
+    margin: 3em 2.3em 2.5em 2em;
+    border-radius: 2em;
+    background-color: white;
+    padding: 1em;
+    height: 40em;
+    width: 20em;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+   
+    
+}
+.boton-copiar{
+    position: absolute;
+    margin-left: 5vw;
+    padding: 1vh;
+    width: 17vw;
+    height: 10vh;
+    border-radius: 24px;
+    border-color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871; 
+    transition: 1s;
+}
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display:block
+}
+.foot{
+    left:45vw;
+    bottom: 5vh;
+    position: absolute;
+    
+}
+
+::-webkit-scrollbar{
+    background-color: #E5E5E5;
+}
+.boton-copiar:hover, .encriptar:hover, .desencriptar:hover{
+    height: 12vh;
+    width: 19vw;
+    cursor: pointer;
+}
+
+.input-text__area:focus{
+    background-color: #afcdf544;
+}
